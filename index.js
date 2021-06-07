@@ -9,16 +9,17 @@ app.use(express.static(path.join(__dirname, 'client/build')));
 // Put all API endpoints under '/api'
 app.get('/api/passwords', (req, res) => {
   const count = 5;
+  console.log(req);
 
   // Generate some passwords
   const passwords = {
-      'hello': 'there'
+      'passwords': 'testing'
   }
 
   // Return them as json
   res.json(passwords);
 
-  console.log(`Sent ${count} passwords`);
+  console.log(`Sent ${passwords} passwords`);
 });
 
 // The "catchall" handler: for any request that doesn't
