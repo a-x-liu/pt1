@@ -9,7 +9,7 @@ app.use(express.static(path.join(__dirname, 'client/build')));
 // Put all API endpoints under '/api'
 app.get('/api/passwords', (req, res) => {
   const count = 5;
-  console.log(req);
+  // console.log(req);
 
   // Generate some passwords
   const passwords = {
