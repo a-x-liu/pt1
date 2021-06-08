@@ -36,3 +36,93 @@
     transform: rotate(360deg);
   }
 }
+
+.loginPage {
+  position:fixed;
+  top: 50%;
+  left: 70%;
+  transform: translate(-50%, -50%);
+  padding: 3%;
+  padding-left: 3.5%;
+  padding-right: 1%;
+  box-shadow: 10px;
+  border-radius: 7%;
+  background-color: #ffffff;
+  width: 325px;
+  border: solid 5px #A9A9A9;
+}
+.loginButton {
+  margin-top: 10px;
+}
+
+.loginPage h2 {
+  margin-top: 0px;
+  margin-bottom: 13px;
+}
+
+.loginButton button {
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+#loginForm TextField {
+  margin-right: 5px;
+}
+
+@media (max-width: 1200px){
+  #container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .loginPage{
+    float:none;
+    top:50%;
+    left:50%;
+  }
+  #info{
+    width: 329px;
+    top:20%;
+    left: 50%;
+  }
+}
+
+#container {
+  display: flex;
+  height: 100vh;
+  position: relative;
+}
+
+#info{
+  position: fixed;
+  top: 50%;
+  left: 40%;
+  width: 25%;
+  transform: translate(-50%, -50%);
+}
+
+html{
+  background-color: #0C3C80;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding:0;
+  
+}
+
+#RegisterPage {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 3%;
+  padding-left: 3.5%;
+  width: 25%;
+  box-shadow: 10px;
+  border-radius: 7%;
+  background-color: #ffffff;
+}
+
+#RegisterTitle {
+  margin-top: 0;
+}
