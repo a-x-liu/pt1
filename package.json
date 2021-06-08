@@ -6,7 +6,9 @@
   "author": "Alex Liu <alexliu1296@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.7"
   },
   "scripts": {
     "start": "node index.js",
