@@ -23,6 +23,7 @@ const confirmPassword = {
 }
 export default function RegisterScreen() {
   return (
+    <div id="container">
     <div id="RegisterPage">
       <h2 id="RegisterTitle">Register here!</h2>
       <form>
@@ -44,5 +45,6 @@ export default function RegisterScreen() {
           </div>
       </form>
             </div>
+      </div>
   )
 }

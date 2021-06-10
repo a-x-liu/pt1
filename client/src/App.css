@@ -99,10 +99,11 @@
   left: 40%;
   width: 25%;
   transform: translate(-50%, -50%);
+  color: white;
 }
 
 html{
-  background-color: #0C3C80;
+  
   height: 100%;
   width: 100%;
   margin: 0;
@@ -121,8 +122,21 @@ html{
   box-shadow: 10px;
   border-radius: 7%;
   background-color: #ffffff;
+  border: solid 5px #A9A9A9;
 }
 
 #RegisterTitle {
   margin-top: 0;
+}
+
+#dashboard{
+  background-color: #96B7D6 !important;
+}
+
+#container{
+  background-color: #0C3C80;
+}
+
+#RegisterPage{
+  background-color: #ffffff;
 }

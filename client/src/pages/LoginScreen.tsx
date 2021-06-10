@@ -25,8 +25,8 @@ export default function LoginScreen() {
   return (
       <div id="container">
         <div id="info"> 
-          <h2> Prolvan Timetabling</h2>
-          <div> This is a timetabling service brought to you by Prolvan and co!</div>
+          <h2>Gorlvan Trip planner</h2>
+          <div> This is a trip planning service brought to you by Gorlvan and co!</div>
         </div>
         <div className="loginPage">
           <h2>Login</h2>
@@ -35,7 +35,7 @@ export default function LoginScreen() {
             <TextField id="loginPassword" label="Password" variant="outlined" type="password" style={password} />
             <div className="loginButton">
 
-              <Link to="/timetables" style={{ textDecoration: 'none' }}>
+              <Link to="/dashboard" style={{ textDecoration: 'none' }}>
                 <Button variant="contained" color="primary">
                   Login
                 </Button>
