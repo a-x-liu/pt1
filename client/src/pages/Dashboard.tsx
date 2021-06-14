@@ -11,6 +11,10 @@ import Card from '@material-ui/core/Card';
 import CardActions from '@material-ui/core/CardActions';
 import CardContent from '@material-ui/core/CardContent';
 import Button from '@material-ui/core/Button';
+import {
+  Link,
+  useHistory,
+} from 'react-router-dom';
 
 const useStyles2 = makeStyles({
   root: {
@@ -119,7 +123,11 @@ export default function SearchAppBar() {
               inputProps={{ 'aria-label': 'search' }}
             />
           </div>
-          
+          <Link to="/" style={{ textDecoration: 'none' }}>
+                <Button variant="contained" color="secondary">
+                  Logout
+                </Button>
+              </Link>
         </Toolbar>
         
       </AppBar>
